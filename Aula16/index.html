@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./src/script.js" defer></script>
+
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <h1>JavaScript</h1>
+
+    <img src="Asuka.jpg" alt="Image" class="ex1" width="800px" height="480px">
+    <button onclick="trocarImagem()">Trocar Imagem</button>
+
+    <hr>
+
+    <h3 id="ex2"></h3>
+
+    <hr>
+
+    <script>
+        // Alterando atributo
+        const elemento = document.querySelector(".ex1");
+
+        function trocarImagem() {
+            elemento.src = elemento.src.includes("Asuka.jpg")
+                ? "Rei.jpg"
+                : "Asuka.jpg"
+        }
+    </script>
+</body>
+</html>
