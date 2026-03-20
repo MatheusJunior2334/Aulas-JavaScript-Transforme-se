@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(208, 208, 247);
+}
+
+#container {
+    position: relative;
+
+    width: 350px;
+    height: 350px;
+    background-color: rgb(9, 82, 177);
+}
+
+#animacao {
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+    background-color: rgb(14, 163, 163);
+}
